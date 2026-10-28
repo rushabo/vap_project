@@ -1,0 +1,15 @@
+Threat Intelligence Aggregator — Python dependencies
+=====================================================
+
+Runtime:
+- Python 3.10 or newer
+- requests>=2.31.0,<3.0.0
+
+Install:
+    python -m pip install -r requirements.txt
+
+Notes:
+- OTX_API_KEY is needed for AlienVault OTX subscribed-pulse collection.
+- VT_API_KEY is needed for VirusTotal Intelligence Search.
+- VirusTotal Intelligence Search access may depend on your account plan.
+- API keys should be stored in environment variables, not committed to GitHub.
